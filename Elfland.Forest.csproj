@@ -7,13 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Office\" />
     <None Remove="DocumentFormat.OpenXml" />
+    <None Remove="Collections\" />
+    <None Remove="IO\" />
+    <None Remove="TimeMachine\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Office\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="DocumentFormat.OpenXml" Version="2.15.0" />
+    <Folder Include="Collections\" />
+    <Folder Include="IO\" />
+    <Folder Include="TimeMachine\" />
   </ItemGroup>
 </Project>
