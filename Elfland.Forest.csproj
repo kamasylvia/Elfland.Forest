@@ -15,6 +15,7 @@
     <None Remove="Serilog.Expressions" />
     <None Remove="System.Linq.Async" />
     <None Remove="NewId" />
+    <None Remove="Serilog.Sinks.Exceptionless" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Collections\" />
@@ -25,5 +26,6 @@
     <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
     <PackageReference Include="Serilog.Expressions" Version="3.3.0" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    <PackageReference Include="Serilog.Sinks.Exceptionless" Version="3.1.5" />
   </ItemGroup>
 </Project>
